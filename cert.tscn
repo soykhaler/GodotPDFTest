@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfvnf0gjximbt"]
+
+[ext_resource type="Script" path="res://cert.gd" id="1_y5shd"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_y5shd")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -34.0
+offset_top = -37.0
+offset_right = 1373.0
+offset_bottom = 684.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 445.0
+offset_top = 258.0
+offset_right = 661.0
+offset_bottom = 281.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Esto es una prueba de texto"
